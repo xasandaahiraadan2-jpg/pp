@@ -1,0 +1,64 @@
+/* BODY */
+body {
+    font-family: 'Segoe UI', Arial;
+    background-color: #fff5f5;
+    margin: 0;
+    text-align: center;
+}
+
+/* NAVIGATION BAR */
+.nav {
+    background: linear-gradient(to right, #cc0000, #ff6600);
+    padding: 12px;
+}
+
+.nav img {
+    width: 55px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.nav img:hover {
+    transform: scale(1.1);
+}
+
+/* TITLES */
+h1 {
+    color: #cc0000;
+    margin-top: 15px;
+}
+
+h2 {
+    color: #ff6600;
+}
+
+/* PARAGRAPHS */
+p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* IMAGES */
+img {
+    width: 220px;
+    margin: 12px;
+    border-radius: 10px;
+    border: 2px solid #cc0000;
+    transition: 0.3s;
+}
+
+/* IMAGE HOVER */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* ADD SIMPLE CARD EFFECT */
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
